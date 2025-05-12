@@ -1,5 +1,5 @@
 import streamlit as st
-import requests
+import re
 
 # Massa atom lengkap
 massa_atom = {
