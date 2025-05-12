@@ -46,14 +46,6 @@ if rumus:
     if hasil is not None:
         st.success(f"Mr dari *{rumus.upper()}* adalah *{hasil:.2f} g/mol*")
 
-# Data sederhana untuk contoh
-tabel_periodik = {
-    "H": {"nama": "Hidrogen", "nomor_atom": 1, "massa_atom": 1.008},
-    "He": {"nama": "Helium", "nomor_atom": 2, "massa_atom": 4.0026},
-    "O": {"nama": "Oksigen", "nomor_atom": 8, "massa_atom": 15.999},
-    "C": {"nama": "Karbon", "nomor_atom": 6, "massa_atom": 12.011},
-    # Tambahkan data lainnya sesuai kebutuhan
-}
 
 # Sidebar
 st.sidebar.title("KalkulatorMr")
