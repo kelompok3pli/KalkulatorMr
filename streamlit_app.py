@@ -45,7 +45,4 @@ if rumus:
     hasil = hitung_mr(rumus)
     if hasil is not None:
         st.success(f"Mr dari *{rumus.upper()}* adalah *{hasil:.2f} g/mol*")
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+
